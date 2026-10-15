@@ -1,0 +1,84 @@
+# SENSITIVE DATA AUDIT TEST — SYNTHETIC DATASET
+
+**Purpose:** Test sensitive information detection and classification across multiple countries and data types.
+
+**IMPORTANT:** All values below are synthetic placeholders created exclusively for software testing. They do not represent real individuals, accounts, credentials, or identity documents.
+
+## 1. United States — Personal and Government Information
+
+- US Zip code: 90210
+- US Taxpayer Id (ITIN): TEST-ITIN-0001
+- US SSN Application: TEST-SSN-APPLICATION-0001
+- US Phone Number: +1-202-555-0147
+- US Passport: TEST-US-PASSPORT-0001
+- US NPI: TEST-NPI-0001
+- US Medical Insurance (Medicare): TEST-MEDICARE-0001
+- US EIN (Employer Identification Number): TEST-EIN-0001
+- US Driver License: TEST-DRIVER-LICENSE-0001
+- US Bank Account Number: TEST-US-BANK-ACCOUNT-0001
+
+## 2. United Kingdom — Personal and Healthcare Information
+
+- UK Nino (National Insurance Number): TEST-NINO-0001
+- UK NHS (National Health Service): TEST-NHS-0001
+
+## 3. Australia — Tax and Company Information
+
+- Australian Business Number (ABN): TEST-ABN-0001
+- Australian Company Number (ACN): TEST-ACN-0001
+- Australian Medicare Number: TEST-AU-MEDICARE-0001
+- Australian Tax File Number (TFN): TEST-TFN-0001
+
+## 4. Cryptocurrency and Financial Information
+
+- Bitcoin Crypto Wallet: bc1qtestsyntheticwallet000000000000000000000
+- Credit Card - American Express: TEST-AMEX-0001
+- Credit Card - Diners: TEST-DINERS-0001
+- Credit Card - Discover: TEST-DISCOVER-0001
+- Credit Card - Master: TEST-MASTERCARD-0001
+- Credit Card - Union Pay: TEST-UNIONPAY-0001
+- Credit Card - Visa: TEST-VISA-0001
+
+## 5. India — Government Identification
+
+- Indian Identity Number (AADHAAR): TEST-AADHAAR-0001
+- Indian Passport Number: TEST-INDIAN-PASSPORT-0001
+- Indian Permanent Account Number (PAN): TEST-PAN-0001
+- Indian Vehicle Registration Number: TEST-VEHICLE-REG-0001
+- Indian Voter Id: TEST-VOTER-ID-0001
+
+## 6. Network and Contact Information
+
+- IP Address: 192.0.2.45
+- URL: https://example.com/sensitive-data-test
+- Email: audit-test@example.com
+
+## 7. Italy — Identity and Tax Information
+
+- Italy Driver License: TEST-ITALY-DRIVER-LICENSE-0001
+- Italy Passport: TEST-ITALY-PASSPORT-0001
+- Italy VAT Code: TEST-ITALY-VAT-0001
+
+## 8. Singapore — National and Business Identification
+
+- Singapore National Registration Id Card: TEST-SG-NRIC-0001
+- Singapore Unique Entity Number: TEST-SG-UEN-0001
+
+## 9. Spain — Tax, Identity, Banking and Postal Information
+
+- Spain CIF: TEST-CIF-0001
+- Spain CP: 28001
+- Spain IBAN: ES00 0000 0000 0000 0000 0000
+- Spain NIE: TEST-NIE-0001
+- Spain NIF: TEST-NIF-0001
+- Spain Passport: TEST-SPANISH-PASSPORT-0001
+- Spain SSN: TEST-SPANISH-SSN-0001
+- Spain VAT: TEST-SPANISH-VAT-0001
+
+## Audit Test Instructions
+
+This document contains representative labels and synthetic values for testing sensitive-data discovery, classification, and reporting.
+
+Expected result: the auditing engine should identify supported categories, assign the configured classification labels, and report matches with their corresponding file and rule metadata.
+
+Note: placeholder values may not trigger detectors that require valid checksums, country-specific formats, or realistic identifier structures. Validate each detector independently before concluding that a rule is working or failing.
