@@ -1,0 +1,144 @@
+# SENSITIVE DATA AUDIT TEST — DATASET 02
+
+**Purpose:** Test repeated sensitive-data occurrences, multiple entity types, and rule matching within a single document.
+
+**Classification:** Synthetic test data only.
+
+## 1. Employee Records
+
+Employee A:
+- Full name: Alex Morgan
+- Email: alex.morgan@example.com
+- Phone number: +1-202-555-0124
+- US SSN: TEST-SSN-1001
+- US Driver License: TEST-DL-1001
+- US Zip code: 10001
+- Date of birth: 1988-04-12
+
+Employee B:
+- Full name: Taylor Reed
+- Email: taylor.reed@example.com
+- Phone number: +1-202-555-0178
+- US SSN: TEST-SSN-1002
+- US Passport: TEST-PASSPORT-1002
+- US Zip code: 30301
+- Date of birth: 1992-09-23
+
+Employee C:
+- Full name: Jordan Blake
+- Email: jordan.blake@example.com
+- Phone number: +1-202-555-0196
+- US SSN: TEST-SSN-1003
+- US Taxpayer ID (ITIN): TEST-ITIN-1003
+- US Zip code: 60601
+- Date of birth: 1985-12-05
+
+## 2. Financial Records
+
+Transaction A:
+- Credit Card - Visa: TEST-VISA-2001
+- Credit Card - Master: TEST-MASTERCARD-2001
+- US Bank Account Number: TEST-BANK-2001
+- Bitcoin Crypto Wallet: TEST-BTC-WALLET-2001
+- Transaction Reference: TX-2026-10001
+
+Transaction B:
+- Credit Card - American Express: TEST-AMEX-2002
+- Credit Card - Discover: TEST-DISCOVER-2002
+- US Bank Account Number: TEST-BANK-2002
+- Bitcoin Crypto Wallet: TEST-BTC-WALLET-2002
+- Transaction Reference: TX-2026-10002
+
+Transaction C:
+- Credit Card - Diners: TEST-DINERS-2003
+- Credit Card - Union Pay: TEST-UNIONPAY-2003
+- US Bank Account Number: TEST-BANK-2003
+- Bitcoin Crypto Wallet: TEST-BTC-WALLET-2003
+- Transaction Reference: TX-2026-10003
+
+## 3. Healthcare Records
+
+Patient A:
+- US Medical Insurance (Medicare): TEST-MEDICARE-3001
+- UK NHS Number: TEST-NHS-3001
+- Australian Medicare Number: TEST-AU-MEDICARE-3001
+- Medical Record Reference: MED-3001
+
+Patient B:
+- US Medical Insurance (Medicare): TEST-MEDICARE-3002
+- UK NHS Number: TEST-NHS-3002
+- Australian Medicare Number: TEST-AU-MEDICARE-3002
+- Medical Record Reference: MED-3002
+
+## 4. International Identity Records
+
+United States:
+- US NPI: TEST-NPI-4001
+- US EIN: TEST-EIN-4001
+- US SSN Application: TEST-SSN-APP-4001
+
+United Kingdom:
+- UK Nino: TEST-NINO-4001
+- UK Nino: TEST-NINO-4002
+
+Australia:
+- Australian Business Number (ABN): TEST-ABN-4001
+- Australian Company Number (ACN): TEST-ACN-4001
+- Australian Tax File Number (TFN): TEST-TFN-4001
+
+India:
+- Indian Identity Number (AADHAAR): TEST-AADHAAR-4001
+- Indian Passport Number: TEST-IND-PASSPORT-4001
+- Indian Permanent Account Number (PAN): TEST-PAN-4001
+- Indian Vehicle Registration Number: TEST-VEHICLE-4001
+- Indian Voter ID: TEST-VOTER-4001
+
+Italy:
+- Italy Driver License: TEST-IT-DL-4001
+- Italy Passport: TEST-IT-PASSPORT-4001
+- Italy VAT Code: TEST-IT-VAT-4001
+
+Singapore:
+- Singapore National Registration ID Card: TEST-SG-NRIC-4001
+- Singapore Unique Entity Number: TEST-SG-UEN-4001
+
+## 5. Spanish Identity and Tax Records
+
+Record A:
+- Spain NIF: TEST-NIF-5001
+- Spain NIE: TEST-NIE-5001
+- Spain CIF: TEST-CIF-5001
+- Spain IBAN: ES00 0000 0000 0000 0000 0000
+- Spain CP: 28013
+- Spain Passport: TEST-ES-PASSPORT-5001
+- Spain SSN: TEST-ES-SSN-5001
+- Spain VAT: TEST-ES-VAT-5001
+
+Record B:
+- Spain NIF: TEST-NIF-5002
+- Spain NIE: TEST-NIE-5002
+- Spain CIF: TEST-CIF-5002
+- Spain IBAN: ES00 0000 0000 0000 0000 0000
+- Spain CP: 08001
+- Spain Passport: TEST-ES-PASSPORT-5002
+- Spain SSN: TEST-ES-SSN-5002
+- Spain VAT: TEST-ES-VAT-5002
+
+## 6. Network and Contact Data
+
+- IP Address: 192.0.2.10
+- IP Address: 198.51.100.25
+- IP Address: 203.0.113.40
+- URL: https://example.com/audit/test-1001
+- URL: https://example.org/records/test-1002
+- Email: audit.user1@example.com
+- Email: audit.user2@example.com
+- Email: audit.user3@example.com
+
+## 7. Summary of Test Occurrences
+
+The document includes repeated examples across identity, financial, healthcare, network, contact, and tax-related categories.
+
+**Expected behavior:** The auditing engine should detect supported entities, associate each match with the correct rule, and report the relevant file and classification metadata.
+
+**Validation note:** All identifier strings prefixed with TEST are synthetic placeholders and may not match detectors requiring valid formats or checksums. Postal codes, IP addresses, URLs, and email addresses use reserved or example values where practical.
