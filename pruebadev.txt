@@ -1,0 +1,62 @@
+DOCUMENTO DE PRUEBA — INFORMACIÓN SENSIBLE FICTICIA 
+Este documento contiene múltiples categorías de información sensible para 
+comprobar la detección, clasificación y auditoría de datos mediante las políticas de 
+Arexdata. 
+1. Identificación personal 
+• DNI español: 12345678Z 
+• DNI alternativo: 87654321X 
+• NIE: X1234567L 
+• NIE alternativo: Y7654321R 
+• Número de pasaporte: PTEST12345 
+• Número de permiso de conducir: TEST-DL-2026-001 
+• Número de la Seguridad Social: 00/0000000000 
+• Fecha de nacimiento: 14/05/1998 
+2. Información bancaria y financiera 
+• IBAN español: ES9121000418450200051332 
+• IBAN de prueba alternativo: ES0000000000000000000000 
+• Número de cuenta bancaria: 12345678901234567890 
+• Código de entidad bancaria: 1234 
+• Número de tarjeta de prueba: 4111111111111111 
+• Fecha de caducidad: 12/29 
+• CVV de prueba: 123 
+• Número de identificación fiscal: TEST-TAX-2026-004 
+3. Datos de contacto 
+• Nombre completo: Carlos Eduardo Martínez López 
+• Correo electrónico: carlos.martinez@example.com 
+• Correo corporativo: c.martinez@example.org 
+• Teléfono español: +34 600 123 456 
+• Teléfono internacional: +1 202 555 0147 
+• Dirección: Calle de Prueba 25, 28001 Madrid, España 
+• Código postal: 28001 
+4. Credenciales y secretos 
+• Usuario: test_admin_2026 
+• Contraseña: FakePassword-OnlyForTesting-123! 
+• API key: sk_test_FAKE_0123456789abcdef 
+• Access token: TEST_ACCESS_TOKEN_0123456789 
+• Refresh token: TEST_REFRESH_TOKEN_9876543210 
+• Client secret: FAKE_CLIENT_SECRET_AREXDATA_2026 
+• Clave privada: FAKE_PRIVATE_KEY_NOT_VALID 
+• Dirección IP: 192.0.2.45 
+5. Información empresarial confidencial 
+• Identificador de empleado: EMP-2026-00451 
+• Número de cliente: CLIENT-987654 
+• Referencia de factura: INV-2026-000781 
+• Identificador de contrato: CONTRACT-TEST-2026-15 
+• Salario mensual: 3.450,00 EUR 
+• Número de cuenta de nómina: PAYROLL-ES-TEST-000123 
+• Proyecto interno: PROJECT-ALPHA-CONFIDENTIAL 
+6. Datos médicos ficticios 
+• Identificador de paciente: PATIENT-TEST-00231 
+• Número de historia clínica: MED-2026-001782 
+• Número de póliza médica: HEALTH-TEST-98765 
+• Diagnóstico de prueba: TEST-DIAGNOSIS-001 
+• Código de seguro médico: INSURANCE-TEST-45678 
+7. Información adicional para probar reglas 
+• Número de identificación fiscal estadounidense (TIN): 123-45-6789 
+• Número de identificación fiscal empresarial (EIN): 12-3456789 
+• Número de licencia profesional: LICENSE-TEST-2026-008 
+• Identificador de dispositivo: DEVICE-TEST-A8F92 
+• URL de prueba: https://example.com/sensitive-data-test 
+• Ruta de archivo: 
+C:\Users\TestUser\Documents\Confidential\financial_report.xlsx 
+FIN DEL DOCUMENTO DE PRUEBA. 
