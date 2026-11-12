@@ -1,0 +1,48 @@
+edited
+US bank account no-987654321
+Employer identification number-12-3456789
+US phone number-1234567890
+US passport no-734840093
+US Zip code-12345-6789
+US Taxpayer Id (ITIN)-900700000
+US NPI-1003802901
+ edited
+Wasim  and nasim are QA Engineers 
+Pattern 
+Test Data 
+Regular Expression 
+Credit Card - American Express 
+371449635398431 
+Credit Card - Diners 
+36700102000000, 36148900647913 
+Credit Card - Discover 
+6011000990139424 
+Credit Card - Master 
+5127045700878574 
+Credit Card - Union Pay 
+8171999927660000,  
+Credit Card - Visa 
+4111111111111111 
+Email testmail@gmail.com
+ Indian PAN 
+TWBQA6578Y 
+Spain IBAN 
+ES91 2100 0418 4502 0005 1332 
+Spain NIE
+Spain NIF 
+12345678Z 
+Spain Passport 
+AAI000000 
+Spain SSN 
+281234567840 
+Spain VAT 
+ESB78603495 
+US EIN (Employer Identification Number) 
+12-3456789 
+US Medical Insurance (Medicare) 
+US NPI 
+1003802901 
+US Passport 
+31195855 
+US Phone Number 
++1 1234567890
